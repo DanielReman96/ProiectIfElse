@@ -3,13 +3,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Calculator calc = new Calculator();
-
-        System.out.println("Diferenta este " + calc.diference(4,2));
-        System.out.println("Suma este " + calc.sum(4,2));
-        System.out.println("Produsul este " + calc.multiplication(4,2));
-        System.out.println("Rezultatul impartirii este" + calc.divide(4,2));
-
+//        Calculator calc = new Calculator();
+//
+//        System.out.println("Diferenta este " + calc.diference(4,2));
+//        System.out.println("Suma este " + calc.sum(4,2));
+//        System.out.println("Produsul este " + calc.multiplication(4,2));
+//        System.out.println("Rezultatul impartirii este" + calc.divide(4,2));
+//
         LogicalOp compare = new LogicalOp();
 
         int biggest = compare.checkBiggerNumber(7,7);
@@ -40,7 +40,16 @@ public class Main {
         int biggestNumberVariable = compare.biggestNumber(7,4,5);
         System.out.println("The biggest number is " + biggestNumberVariable);
 
-
+        compare.numberToHundred(50);
+        compare.numberToNegativeHundred(10);
+        compare.numberToNumber(3,34);
+        compare.numberToBiggestNumber(100,109);
+        compare.evenNumberToHundred();
+        compare.oddNumberToHundred();
+        System.out.println(compare.sumOfNumber(90));
+        System.out.println(compare.sumAndAverage(1));
+        compare.pyramid(5);
+        compare.inversePyramid(5);
     }
 
 

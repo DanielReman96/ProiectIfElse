@@ -1,3 +1,4 @@
+
 public class LogicalOp {
 
 
@@ -138,6 +139,145 @@ public class LogicalOp {
         return thirdNumber;
 
     }
+
+
+
+    public void numberToHundred (int number){
+
+        for (int i = number; number <= 100; number++){
+            System.out.println(number);
+
+        }
+
+    }
+
+    public void numberToNegativeHundred (int number ){
+
+        for (int i = number; number >= -100; number--){
+            System.out.println(number);
+
+        }
+
+    }
+
+    public void numberToNumber(int firstNumber, int secondNumber){
+
+        for(int i = firstNumber; firstNumber <= secondNumber; firstNumber++){
+            System.out.println(firstNumber);
+
+        }
+
+
+    }
+
+
+    public void numberToBiggestNumber(int firstNumber, int secondNumber){
+
+        if (firstNumber > secondNumber){
+
+            for (int i = secondNumber; secondNumber <= firstNumber; secondNumber++ ){
+                System.out.println(secondNumber);
+            }
+
+        }
+        else
+            for (int i = firstNumber; i <= secondNumber; i++){
+                System.out.println(i);
+
+            }
+
+
+    }
+
+    public void evenNumberToHundred(){
+
+        for (int i = 1; i <= 100; i++){
+
+            if (i%2 == 0){
+                System.out.println(i);
+            }
+        }
+    }
+
+    public void oddNumberToHundred(){
+
+        for (int i = 1; i <= 100; i++){
+
+            if (i % 2 == 1){
+                System.out.println(i);
+
+            }
+
+        }
+
+    }
+
+
+    public int sumOfNumber (int number){
+        int sum = 0;
+        for (int i = number; number <= 100; number++){
+
+            sum = sum + number;
+
+        }
+
+        return sum;
+    }
+
+
+    public float sumAndAverage (int number){
+        float sum = 0;
+        float average = 0;
+        int count = 0;
+        for (int i = number; i <= 100; i++){
+            sum = sum + i;
+            count++;
+
+        }
+//        System.out.println(sum);
+//        System.out.println(count);
+
+        average = sum / count;
+
+        return  average;
+    }
+
+
+    public void pyramid(int number){
+
+        for (int i = 0; i <= number; i++){
+            for (int j = 0; j <= i; j++){
+
+                System.out.print("* ");
+            }
+            System.out.println();
+
+        }
+
+
+    }
+
+
+    public void inversePyramid(int number){
+        for (int i = 1; i <= number; i++){
+            for (int j = number; j >= i; j--){
+
+                System.out.print("* ");
+            }
+            System.out.println();
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
 
 
 
