@@ -51,15 +51,15 @@ public class Main {
 //        compare.pyramid(5);
 //        compare.inversePyramid(5);
 
-//        compare.whileNumberToHundred(90);
-//        compare.whileNumberNegativeHundred(20);
-//        compare.whileNumberToNumber(60,50);
-//        compare.whileNumberToBiggestNumber(49,45);
-//          compare.whileEvenNumber();
-//          compare.whileOddNumber();
-//        compare.numberToNumberSumAndAverage();
-//        compare.divisibleSeven(6, 100);
-//          compare.numberFibonacci();
+        compare.whileNumberToHundred(90);
+        compare.whileNumberNegativeHundred(20);
+        compare.whileNumberToNumber(60,50);
+        compare.whileNumberToBiggestNumber(49,45);
+        compare.whileEvenNumber();
+        compare.whileOddNumber();
+        compare.numberToNumberSumAndAverage();
+        compare.divisibleSeven(6, 100);
+        compare.numberFibonacci();
         compare.cozaLozaWoza();
 
 
