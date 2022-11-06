@@ -12,45 +12,60 @@ public class Main {
 //
         LogicalOp compare = new LogicalOp();
 
-        int biggest = compare.checkBiggerNumber(7,7);
-        System.out.println("Numarul cel mai mare este " + biggest);
+//        int biggest = compare.checkBiggerNumber(7,7);
+//        System.out.println("Numarul cel mai mare este " + biggest);
+//
+//        String aText = compare.compareText("Daniel");
+//        System.out.println(aText);
+//
+//
+//        String compVariable = compare.compareTextNumber(" Daniel ", 4);
+//        System.out.println(compVariable);
+//
+//        String compNumberVariable = compare.compareNumber(9);
+//        System.out.println(compNumberVariable);
+//
+//        String compNumberTwoVariable = compare.compareNumberTwo(4);
+//        System.out.println(compNumberTwoVariable);
+//
+//        compare.switchCase(5);
+//
+//        String numberEvenVariable = String.valueOf(compare.isNumberEven(9));
+//        System.out.println(numberEvenVariable);
+//
+//        String eligibleToVoteVariable = String.valueOf(compare.isEligibleToVote(1));
+//        System.out.println(eligibleToVoteVariable);
+//
+//
+//        int biggestNumberVariable = compare.biggestNumber(7,4,5);
+//        System.out.println("The biggest number is " + biggestNumberVariable);
+//
+//        compare.numberToHundred(50);
+//        compare.numberToNegativeHundred(10);
+//        compare.numberToNumber(3,34);
+//        compare.numberToBiggestNumber(100,109);
+//        compare.evenNumberToHundred();
+//        compare.oddNumberToHundred();
+//        System.out.println(compare.sumOfNumber(90));
+//        System.out.println(compare.sumAndAverage(1));
+//        compare.pyramid(5);
+//        compare.inversePyramid(5);
 
-        String aText = compare.compareText("Daniel");
-        System.out.println(aText);
+//        compare.whileNumberToHundred(90);
+//        compare.whileNumberNegativeHundred(20);
+//        compare.whileNumberToNumber(60,50);
+//        compare.whileNumberToBiggestNumber(49,45);
+//          compare.whileEvenNumber();
+//          compare.whileOddNumber();
+//        compare.numberToNumberSumAndAverage();
+//        compare.divisibleSeven(6, 100);
+//          compare.numberFibonacci();
+        compare.cozaLozaWoza();
 
 
-        String compVariable = compare.compareTextNumber(" Daniel ", 4);
-        System.out.println(compVariable);
-
-        String compNumberVariable = compare.compareNumber(9);
-        System.out.println(compNumberVariable);
-
-        String compNumberTwoVariable = compare.compareNumberTwo(4);
-        System.out.println(compNumberTwoVariable);
-
-        compare.switchCase(5);
-
-        String numberEvenVariable = String.valueOf(compare.isNumberEven(9));
-        System.out.println(numberEvenVariable);
-
-        String eligibleToVoteVariable = String.valueOf(compare.isEligibleToVote(1));
-        System.out.println(eligibleToVoteVariable);
 
 
-        int biggestNumberVariable = compare.biggestNumber(7,4,5);
-        System.out.println("The biggest number is " + biggestNumberVariable);
-
-        compare.numberToHundred(50);
-        compare.numberToNegativeHundred(10);
-        compare.numberToNumber(3,34);
-        compare.numberToBiggestNumber(100,109);
-        compare.evenNumberToHundred();
-        compare.oddNumberToHundred();
-        System.out.println(compare.sumOfNumber(90));
-        System.out.println(compare.sumAndAverage(1));
-        compare.pyramid(5);
-        compare.inversePyramid(5);
-    }
+  }
 
 
 
