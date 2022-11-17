@@ -51,21 +51,72 @@ public class Main {
 //        compare.pyramid(5);
 //        compare.inversePyramid(5);
 
-        compare.whileNumberToHundred(90);
-        compare.whileNumberNegativeHundred(20);
-        compare.whileNumberToNumber(60,50);
-        compare.whileNumberToBiggestNumber(49,45);
-        compare.whileEvenNumber();
-        compare.whileOddNumber();
-        compare.numberToNumberSumAndAverage();
-        compare.divisibleSeven(6, 100);
-        compare.numberFibonacci();
-        compare.cozaLozaWoza();
+//        compare.whileNumberToHundred(90);
+//        compare.whileNumberNegativeHundred(20);
+//        compare.whileNumberToNumber(60,50);
+//        compare.whileNumberToBiggestNumber(49,45);
+//        compare.whileEvenNumber();
+//        compare.whileOddNumber();
+//        compare.numberToNumberSumAndAverage();
+//        compare.divisibleSeven(6, 100);
+//        compare.numberFibonacci();
+//        compare.cozaLozaWoza();
+
+//        compare.getOneToHundredArray();
+
+//        int[] myFirstArray = compare.setEvenNumberArray(100);
+//        compare.printEvenNumberArray(myFirstArray);
+
+//        int[] myAverageArray = compare.numberForAverageArray(100);
+//        compare.getAverageArrayNumber(myAverageArray);
+//        System.out.println(compare.averageNumberArray(myAverageArray));
+
+//        String[] arrayValue = {"Dan","Markus","Dani", "Martin", "Emi"};
+//        System.out.println(compare.checkStringArray(arrayValue,"Markuss"));
+
+//        int[] myArray = compare.numberArray(100);
+//        System.out.println(compare.checkNumberReturnPosition(myArray,100));
+
+
+//            compare.myGridLine();
+
+//        int[] myArrayEight = compare.myArrayExEight(10);
+//         compare.checkMyArrayAndReturnWithoutNumber(myArrayEight,4);
 
 
 
 
-  }
+//        compare.getSecondLowestNumber(compare.myArraySecondLowest);
+
+//        int[] myEmptyArray = new int[10];
+//        int[] myFullArray = {99,18,78,61,50,45,37,22,15,10};
+//
+//       compare.myEmptyArray(compare.myCopyArray(myFullArray,myEmptyArray));
+
+
+
+
+//        compare.elementInPosition(3,10);
+//        compare.maxAndMinArray(compare.myMinMaxArray);
+//        compare.myInversionArray(compare.myMinMaxArray);
+//        compare.myDuplicateValueOfArray(compare.myMinMaxArray);
+//        compare.returnCommonString(compare.myFirstStringArray, compare.mySecondStringArray);
+        compare.returnOrderedNumbers(compare.unorderedNumbers);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 
 
 

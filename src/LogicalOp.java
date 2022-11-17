@@ -81,7 +81,7 @@ public class LogicalOp {
 //        return "number";
 //
 //    }
-//
+
 //    public void   switchCase(int number) {
 //
 //        switch (number) {
@@ -99,7 +99,7 @@ public class LogicalOp {
 //                break;
 //            default:
 //                System.out.println("The number is higher");
-//
+
 //        }
 //
 //
@@ -283,174 +283,538 @@ public class LogicalOp {
 //
 //
 
-    public void whileNumberToHundred(int number) {
-        while (number <= 100) {
+//    public void whileNumberToHundred(int number) {
+//        while (number <= 100) {
+//
+//
+//            System.out.println(number);
+//            number++;
+//
+//        }
+//
+//
+//    }
+//
+//    public void whileNumberNegativeHundred(int number) {
+//        while (number >= -100) {
+//
+//            System.out.println(number);
+//            number--;
+//
+//        }
+//
+//
+//    }
+//
+//
+//    public void whileNumberToNumber(int firstNumber, int secondNumber) {
+//        while (firstNumber < secondNumber) {
+//
+//            System.out.println(firstNumber);
+//            firstNumber++;
+//
+//        }
+//        while (firstNumber >= secondNumber) {
+//
+//            System.out.println(secondNumber);
+//            secondNumber++;
+//        }
+//
+//    }
+//
+//    public void whileNumberToBiggestNumber(int firstNumber, int secondNumber) {
+//
+//        while (firstNumber > secondNumber) {
+//            System.out.println(secondNumber);
+//            secondNumber++;
+//
+//        }
+//
+//        while (firstNumber <= secondNumber) {
+//            System.out.println(firstNumber);
+//            firstNumber++;
+//        }
+//
+//    }
+//
+//    public void whileEvenNumber() {
+//        int number = 1;
+//        while (number <= 100) {
+//            if (number % 2 == 0) {
+//                System.out.println(number);
+//            }
+//            number++;
+//
+//        }
+//    }
+//
+//    public void whileOddNumber() {
+//        int number = 0;
+//        while (number <= 100) {
+//            if (number % 2 == 1) {
+//                System.out.println(number);
+//            }
+//            number++;
+//
+//        }
+//
+//    }
+//
+//    public void numberToNumberSumAndAverage() {
+//        int firstNumber = 111;
+//        int secondNumber = 8899;
+//        float sum = 0;
+//        int count = 0;
+//        while (firstNumber <= secondNumber) {
+//            sum = sum + firstNumber;
+//            count++;
+//            firstNumber++;
+//
+//        }
+//        System.out.println(sum);
+//        System.out.println(count);
+//        float average = sum / count;
+//        System.out.println(average);
+//
+//    }
+//
+//
+//    public float divisibleSeven(int firstNumber, int secondNumber) {
+//        int count = 0;
+//        float sum = 0;
+//        while (firstNumber <= secondNumber) {
+//
+//            if (firstNumber % 7 == 0) {
+//
+//                sum = sum + firstNumber;
+//                System.out.println(firstNumber);
+//                count++;
+//            }
+//
+//            firstNumber++;
+//
+//        }
+//        float average = sum / count;
+//        System.out.println(count);
+//        System.out.println(sum);
+//        System.out.println(average);
+//
+//        return average;
+//    }
+//
+//
+//    public void numberFibonacci() {
+//        int firstNumber = 0;
+//        int secondNumber = 1;
+//        int count = 0;
+//        System.out.print(firstNumber + " " + secondNumber);
+//
+//        while (count < 10) {
+//
+//            int thirdNumber = firstNumber + secondNumber;
+//            System.out.print(" " + thirdNumber);
+//            firstNumber = secondNumber;
+//            secondNumber = thirdNumber;
+//            count++;
+//
+//        }
+//
+//
+//    }
+//
+//
+//    public void cozaLozaWoza() {
+//       int i = 1;
+//
+//            while (i <= 110) {
+//
+//                if(i % 11 == 0){
+//
+//                    System.out.println(i + " ");
+//                    i++;
+//                }
+//
+//                System.out.print(i + " ");
+//                i++;
+//            }
+//
+//    }
+//
+//
+//
+//    public boolean verifyIsInArray(int[] myArray, int value){
+//
+//        for (int i = 0; i < myArray.length; i++){
+//
+//            if (myArray[i] == value){
+//                return true;
+//            }
+//
+//
+//        }
+//
+//
+//
+//        return false;
+//    }
 
 
-            System.out.println(number);
-            number++;
+
+    public int[] getOneToHundredArray (){
+
+        int[] myArray = new int[100];
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
+
+        }
+
+        for (int i = 0; i < myArray.length; i++){
+            System.out.print(myArray[i] + " ");
+
 
         }
 
 
+        return myArray;
     }
 
-    public void whileNumberNegativeHundred(int number) {
-        while (number >= -100) {
 
-            System.out.println(number);
-            number--;
+    public int[] setEvenNumberArray(int positions){
 
+        int[] myArray = new int[positions];
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
         }
 
-
+        return myArray;
     }
 
+    public void printEvenNumberArray(int[] myArray){
 
-    public void whileNumberToNumber(int firstNumber, int secondNumber) {
-        while (firstNumber < secondNumber) {
-
-            System.out.println(firstNumber);
-            firstNumber++;
-
-        }
-        while (firstNumber >= secondNumber) {
-
-            System.out.println(secondNumber);
-            secondNumber++;
-        }
-
-    }
-
-    public void whileNumberToBiggestNumber(int firstNumber, int secondNumber) {
-
-        while (firstNumber > secondNumber) {
-            System.out.println(secondNumber);
-            secondNumber++;
-
-        }
-
-        while (firstNumber <= secondNumber) {
-            System.out.println(firstNumber);
-            firstNumber++;
-        }
-
-    }
-
-    public void whileEvenNumber() {
-        int number = 1;
-        while (number <= 100) {
-            if (number % 2 == 0) {
-                System.out.println(number);
+        for (int i = 0; i < 100; i++){
+            if (myArray[i] % 2 == 0){
+                System.out.print(myArray[i] + " ");
             }
-            number++;
-
-        }
-    }
-
-    public void whileOddNumber() {
-        int number = 0;
-        while (number <= 100) {
-            if (number % 2 == 1) {
-                System.out.println(number);
-            }
-            number++;
 
         }
 
     }
 
-    public void numberToNumberSumAndAverage() {
-        int firstNumber = 111;
-        int secondNumber = 8899;
-        float sum = 0;
+    public int[] numberForAverageArray(int positions){
+
+        int[] myArray = new int[positions];
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
+        }
+
+        return myArray;
+    }
+
+    public void getAverageArrayNumber(int[] myArray){
         int count = 0;
-        while (firstNumber <= secondNumber) {
-            sum = sum + firstNumber;
+        float sum = 0;
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
             count++;
-            firstNumber++;
+            sum = sum + myArray[i];
 
         }
-        System.out.println(sum);
-        System.out.println(count);
-        float average = sum / count;
-        System.out.println(average);
 
+        float average = sum / count;
+        System.out.println("Sum is " + sum + " and count is " + count + " and average is " + average  );
     }
 
 
-    public float divisibleSeven(int firstNumber, int secondNumber) {
-        int count = 0;
+
+    public float averageNumberArray(int[] myArray){
+
         float sum = 0;
-        while (firstNumber <= secondNumber) {
 
-            if (firstNumber % 7 == 0) {
-
-                sum = sum + firstNumber;
-                System.out.println(firstNumber);
-                count++;
-            }
-
-            firstNumber++;
-
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
+            sum = sum + myArray[i];
         }
-        float average = sum / count;
-        System.out.println(count);
-        System.out.println(sum);
-        System.out.println(average);
 
+        float average = sum / myArray.length;
         return average;
     }
 
 
-    public void numberFibonacci() {
-        int firstNumber = 0;
-        int secondNumber = 1;
-        int count = 0;
-        System.out.print(firstNumber + " " + secondNumber);
+   public boolean checkStringArray(String[] array, String arrayValue){
 
-        while (count < 10) {
+        for (int i = 0; i < array.length; i++){
+            if (array[i] == arrayValue){
+                return true;
+            }
+        }
+        return false;
+   }
 
-            int thirdNumber = firstNumber + secondNumber;
-            System.out.print(" " + thirdNumber);
-            firstNumber = secondNumber;
-            secondNumber = thirdNumber;
-            count++;
+
+
+   public int[] numberArray(int position) {
+
+        int[] array = new int[position];
+        for (int i = 0; i < array.length; i++){
+            array[i] = i + 1;
 
         }
+
+        return array;
+   }
+
+
+    public int checkNumberReturnPosition(int[] myArray, int value){
+
+        for (int i = 0; i < myArray.length; i++){
+            if (myArray[i] == value){
+                return i;
+            }
+        }
+
+
+        return -1;
+    }
+
+    public void myGridLine(){
+
+        char[] line = {'-','-','-','-','-','-','-','-','-','-',};
+
+        for (int i = 0; i <= 10; i++){
+            System.out.println(line);
+        }
+
 
 
     }
 
 
-    public void cozaLozaWoza() {
-        int countNumber = 0;
-        int countRow = 0;
-        int firstNumber = 1;
 
 
-        while (firstNumber <= 110) {
-
-            System.out.print(" " + firstNumber++);
 
 
-            if (firstNumber % 3 == 0) {
-                firstNumber = Integer.parseInt((" Coza "));
-            } else if (firstNumber % 5 == 0) {
-                firstNumber = Integer.parseInt(" Loza ");
-            } else if (firstNumber % 7 == 0) {
-                firstNumber = Integer.parseInt(" Woza ");
-            } else if (firstNumber % 3 == 0 && firstNumber % 5 == 0) {
-                firstNumber = Integer.parseInt(" CozaLoza ");
-            } else if (firstNumber % 3 == 0 && firstNumber % 7 == 0) {
-                firstNumber = Integer.parseInt(" CozaWoza ");
-            } else if (firstNumber % 5 == 0 && firstNumber % 7 == 0) {
-                firstNumber = Integer.parseInt(" WozaLoza ");
-            } else if (firstNumber % 3 == 0 && firstNumber % 5 == 0 && firstNumber % 7 == 0) {
-                firstNumber = Integer.parseInt(" CozaLozaWoza ");
+
+
+    public int[] myArrayExEight(int position){
+
+        int[] myArray = new int[position];
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
+        }
+
+
+        return myArray;
+    }
+
+
+    public int[] checkMyArrayAndReturnWithoutNumber(int[] myArray, int number){
+
+
+        for (int i = 0; i < myArray.length; i++){
+
+            if (myArray[i] == number){
+
+                i = i + 1;
+            }
+            System.out.println(myArray[i]);
+
+        }
+
+        return myArray;
+    }
+
+
+
+
+
+
+   int[] myArraySecondLowest = {8,5,1,3,5,6,58,9};
+
+    public int getSecondLowestNumber(int[] myArray){
+
+        int secondLowestNumber = 0;
+
+        for (int i = 0; i < myArray.length; i++){
+            for (int j = i + 1; j < myArray.length; j++){
+
+                if (myArray[i] < myArray[j]){
+                    secondLowestNumber = myArray[j];
+                    myArray[j] = myArray[i];
+                    myArray[i] = secondLowestNumber;
+
+                }
             }
 
-            firstNumber++;
         }
+        System.out.println(secondLowestNumber);
+
+
+        return myArray[1];
+
     }
+
+
+
+        public int[] myCopyArray (int[] fullArray, int[] emptyArray){
+
+
+       for (int i = 0, j = 0; i < fullArray.length; i++){
+
+           emptyArray[j] = fullArray[i];
+           j++;
+       }
+
+       return emptyArray;
+
+    }
+
+    public void myEmptyArray(int[] myArray){
+
+        for (int i = 0; i < myArray.length; i++){
+            System.out.println(myArray[i] + " ");
+
+        }
+
+
+    }
+
+// Tema optionala
+
+    public int[] elementInPosition(int index, int value){
+        int[] myArray = new int[10];
+
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
+
+            if(index == i){
+                myArray[i] = value;
+            }
+
+            System.out.println(myArray[i]);
+
+        }
+
+        return myArray;
+
+    }
+
+    int[] myMinMaxArray = {99,15,78,61,50,45,99,22,15,10};
+    public int maxAndMinArray(int[] myArray){
+
+        int min = myMinMaxArray[0];
+        int max = myMinMaxArray[0];
+        for (int i = 0; i < myMinMaxArray.length; i++){
+
+            System.out.println(myMinMaxArray[i]);
+
+            if (myMinMaxArray[i] < min){
+                min = myMinMaxArray[i];
+            }
+
+            if (myMinMaxArray[i] > max){
+                max = myMinMaxArray[i];
+            }
+
+        }
+
+        System.out.println( " The min is " + min + " and the max is  " + max);
+
+
+        return max;
+    }
+
+
+
+    public int[] myInversionArray(int[] myArray){
+
+        for (int i = 0; i < myArray.length; i++){
+            System.out.print(myArray[i] + " ");
+        }
+        System.out.println();
+
+        for (int i = myArray.length - 1; i >= 0; i--){
+            System.out.print(myArray[i] + " ");
+        }
+
+        return myArray;
+    }
+
+
+    public int myDuplicateValueOfArray(int[] myArray){
+
+
+       for (int i = 0; i < myArray.length; i++){
+           for (int j = i + 1; j < myArray.length; j++){
+
+               if (myArray[i] == myArray[j]){
+                   System.out.println(myArray[j]);
+               }
+           }
+       }
+
+        return 0;
+    }
+
+
+    String[] myFirstStringArray = {" Dani ", " Markus ", " Vlad ", " John ", " Martin ", " Kevin ", " Emi "};
+    String[] mySecondStringArray = {" David ", " Markus ", " Gabi ", " John ", " Martin ", " Hartmann ", " Emi "};
+
+    public String returnCommonString(String[] myArray, String[] mySecondArray){
+
+        for (int i = 0; i < myArray.length; i++){
+            for (int j = 0; j < mySecondArray.length; j++){
+
+                if (myArray[i] == mySecondArray[j]){
+                    System.out.println(mySecondArray[j]);
+                }
+            }
+        }
+
+
+
+        return null;
+    }
+
+
+    int[] unorderedNumbers = {9, 19, 4, 3 , 5, 1, 7, 10, 20};
+    public int returnOrderedNumbers(int[] myArray){
+
+        for (int i = 0; i < myArray.length; i++){
+            for (int j = i + 1; j < myArray.length; j++){
+
+                int temporary = 0;
+
+                if (myArray[i] > myArray[j]){
+                    temporary = myArray[i];
+                    myArray[i] = myArray[j];
+                    myArray[j] = temporary;
+
+                }
+
+
+            }
+            System.out.println(myArray[i]);
+        }
+
+        return 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
