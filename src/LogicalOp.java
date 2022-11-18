@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //
 public class LogicalOp {
 //
@@ -798,6 +801,79 @@ public class LogicalOp {
 
         return 0;
     }
+
+
+
+
+
+
+    public void printListElement(List<String> myList){
+
+        for (String name:myList)
+        System.out.println(name);
+
+    }
+
+
+    public void numberTheEndOfTheList(List<Integer> myList, int number){
+
+        myList.add(myList.size(),number);
+    }
+
+    public void printElementFromNumber(List<Integer> myList, int position){
+
+        for (int i = position; i < myList.size(); i++){
+
+            System.out.println(myList.get(i));
+        }
+
+    }
+
+    public void printReversDisplayElement(List<Integer> myList){
+
+            for (int i = myList.size() - 1; i >= 0; i--){
+
+                System.out.print(myList.get(i) + " ");
+            }
+
+    }
+
+
+    public void addToStringToPosition(List<String> myList, int index, String text){
+
+        myList.add(index,text);
+
+    }
+
+    public void addNumberToFirstPosition(List<Integer> myList, int value){
+
+        myList.add(0,value);
+
+    }
+
+    public void returnValueAndIndexForList(List<Integer> myList){
+
+        for (int i = 0; i < myList.size(); i++){
+            System.out.println(" My index is: " + i + " and my value is: " +myList.get(i) );
+        }
+
+    }
+
+    public int returnBiggestNumber(List<Integer> myList){
+
+        int max = myList.get(0);
+
+        for (int i = 0; i < myList.size(); i++){
+
+            if (myList.get(i) > max){
+                max = myList.get(i);
+            }
+
+        }
+
+        return max;
+    }
+
 
 
 

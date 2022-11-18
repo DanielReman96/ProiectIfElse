@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
 
@@ -101,7 +104,45 @@ public class Main {
 //        compare.myInversionArray(compare.myMinMaxArray);
 //        compare.myDuplicateValueOfArray(compare.myMinMaxArray);
 //        compare.returnCommonString(compare.myFirstStringArray, compare.mySecondStringArray);
-        compare.returnOrderedNumbers(compare.unorderedNumbers);
+//        compare.returnOrderedNumbers(compare.unorderedNumbers);
+
+
+
+        List<String> myList = new ArrayList<>();
+        myList.add(0,"Dan");
+        myList.add(1,"Daniel");
+        myList.add(2,"Markus");
+        myList.add(3,"Martin");
+//
+//        compare.printListElement(myList);
+
+        List<Integer> mySecondList = new ArrayList<>();
+        mySecondList.add(0,1);
+        mySecondList.add(1,4);
+        mySecondList.add(2,5);
+        mySecondList.add(3,7);
+//        compare.numberTheEndOfTheList(mySecondList,5);
+
+
+
+
+//        compare.printElementFromNumber(mySecondList,1);
+//        compare.printReversDisplayElement(mySecondList);
+
+//        compare.addToStringToPosition(myList,1,"Kevin");
+//        System.out.println(myList);
+
+//        compare.addNumberToFirstPosition(mySecondList,555);
+//        System.out.println(mySecondList);
+
+//        compare.returnValueAndIndexForList(mySecondList);
+        int biggestNumber = compare.returnBiggestNumber(mySecondList);
+        System.out.println(" The biggest number is:  " + biggestNumber + " from my List: " + mySecondList);
+
+
+
+
+
 
 
 
