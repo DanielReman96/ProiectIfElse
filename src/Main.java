@@ -136,20 +136,22 @@ public class Main {
 //        System.out.println(mySecondList);
 
 //        compare.returnValueAndIndexForList(mySecondList);
-        int biggestNumber = compare.returnBiggestNumber(mySecondList);
-        System.out.println(" The biggest number is:  " + biggestNumber + " from my List: " + mySecondList);
+//        int biggestNumber = compare.returnBiggestNumber(mySecondList);
+//        System.out.println(" The biggest number is:  " + biggestNumber + " from my List: " + mySecondList);
 
 
+//        compare.reversealOfElements(mySecondList);
+
+        List<Integer> myThirdList = new ArrayList<>();
+        myThirdList.add(0,1);
+        myThirdList.add(1,4);
+        myThirdList.add(2,5);
+        myThirdList.add(3,7);
+        myThirdList.add(4,8);
+        myThirdList.add(5,12);
 
 
-
-
-
-
-
-
-
-
+        compare.returnEvenNumberFromList(myThirdList);
 
 
 

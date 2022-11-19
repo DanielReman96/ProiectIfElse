@@ -874,13 +874,49 @@ public class LogicalOp {
         return max;
     }
 
+//  Tema optionala
 
 
+    public List<Integer> reversealOfElements(List<Integer> myList){
+
+        System.out.println(myList);
+
+        return myList;
+    }
+
+    public List<Integer> returnEvenNumberFromList(List<Integer> myList){
+
+        for (int i = 0; i < myList.size(); i++){
+
+            if (myList.get(i) % 2 == 0){
+                System.out.println(myList.get(i) + " ");
+            }
+
+        }
+
+        return myList;
+
+    }
 
 
+    public List<Integer> returnNumberAscendingOrder(List<Integer> myList){
 
+        for (int i = 0; i < myList.size(); i++){
+            for (int j = i + 1; j < myList.size(); j++){
 
+            int temp = 0;
 
+            if (myList.get(i) > myList.get(j)){
+                temp = myList.get(i);
+//                myList.get(i) = myList.get(j);
+//                myList.get(j) = temp;
+            }
+
+            }
+
+        }
+        return myList;
+    }
 
 
 
