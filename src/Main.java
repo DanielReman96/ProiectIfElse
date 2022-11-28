@@ -92,7 +92,7 @@ public class Main {
 //        compare.getSecondLowestNumber(compare.myArraySecondLowest);
 
 //        int[] myEmptyArray = new int[10];
-//        int[] myFullArray = {99,18,78,61,50,45,37,22,15,10};
+        int[] myFullArray = {99,18,78,61,50,45,37,22,15,10};
 //
 //       compare.myEmptyArray(compare.myCopyArray(myFullArray,myEmptyArray));
 
@@ -141,17 +141,32 @@ public class Main {
 
 
 //        compare.reversealOfElements(mySecondList);
+//
+//        List<Integer> myThirdList = new ArrayList<>();
+//        myThirdList.add(0,1);
+//        myThirdList.add(1,4);
+//        myThirdList.add(2,5);
+//        myThirdList.add(3,7);
+//        myThirdList.add(4,8);
+//        myThirdList.add(5,12);
+//
+//
+//        compare.returnEvenNumberFromList(myThirdList);
 
-        List<Integer> myThirdList = new ArrayList<>();
-        myThirdList.add(0,1);
-        myThirdList.add(1,4);
-        myThirdList.add(2,5);
-        myThirdList.add(3,7);
-        myThirdList.add(4,8);
-        myThirdList.add(5,12);
 
+        Read read = new Read();
+//        read.returnNumberFromKeyboard();
+//       float floatNumber = read.returnFloatNumberFromKeyboard();
+//       int intNumber = read.returnIntNumberFromKeyboard();
+//       double doubleNumber = read.returnDoubleNumberFromKeyboard();
+//       long longNumber = read.returnLongNumberFromKeyboard();
 
-        compare.returnEvenNumberFromList(myThirdList);
+//       read.myMenu();
+//       int[] myArray = read.returnFullArray(4);
+//       read.printFullArray(myArray);
+
+//        read.printOfListIntegerFromKeyboard();
+        compare.printValueFromPosition(myFullArray, 9);
 
 
 

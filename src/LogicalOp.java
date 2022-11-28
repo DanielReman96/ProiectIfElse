@@ -919,13 +919,41 @@ public class LogicalOp {
     }
 
 
+    public void printValueFromPosition(int[] myArray, int position){
 
 
 
+        try {
+            int i = position;
+            for ( i = 0; i < myArray.length; i++){
+
+            }
+            System.out.println(myArray[position]);
+
+
+        } catch (IndexOutOfBoundsException e) {
+
+            System.out.println(" Inside catch, number too large ");
+        }
+
+    }
 
 
 
+//    6. In clasa LogicalOp, creati o metoda  'wait()'. Metoda sa nu returneze nimic, dar sa primeasca un parametru de tip int.
+//    In interiorul ei, tratati metoda Thread.sleep(), astfel incat metoda noastra sa primeasca valoarea in secunde,
+//    cat sa astepte. Ex: wait(5) -> asteapta 5 secunde.
+//    Mentiune: metoda Thread.sleep() se foloseste de milisecunde pentru a astepta.
 
+
+
+     public void wait(int parameter) throws InterruptedException {
+
+        Thread.sleep(5);
+
+
+
+     }
 
 
 
